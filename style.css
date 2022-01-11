@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav a {
+  text-decoration: none;
+  margin-right: 17px;
+  color: black;
+  font-size: 1.3em;
+}
+form.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+section.login-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+input,
+button {
+  border: 1px solid lightgray;
+  padding: 10px 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+button {
+  background: orange;
+  border: navajowhite;
+}
